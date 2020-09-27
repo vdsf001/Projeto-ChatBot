@@ -1,10 +1,10 @@
-from flask import Flask
+from flask import Flask, request
 
 app =  Flask(__name__)
 @app.route('/')
 def index():
-    return 'Route is working'
-
+    param = request.args.get("Pergunta")
+    return f"Route is working -- {param}"
 
 if __name__== "main":
     app.run()
