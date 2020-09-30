@@ -1,20 +1,18 @@
-lista = [["Edson", "Arão"], ["Vinicius", "Elias"]]
+class Bot():
+    def __init__(self, opcoes, respostas):
+        self.opcoes = opcoes
+        self.respostas = respostas
 
-respostas = ["Achou Arão ou Edson", "Achou Vinicius ou Elias"]
+    def __word_exists(self, item, word):
+        for index, array_index in enumerate(item):
+            for palavra in array_index:
+                if(palavra == word):
+                    return index
 
-def word_exists(item, word):
-    for index, array_index in enumerate(item):
-        for palavra in array_index:
-            if(palavra == word):
-                return index
-                
-    
-
-def find_word(word, lista):
-    found = word_exists(lista, word)
-    return found
-
-x = find_word("Arão", lista)
-
-print(respostas[x])
+    def find_word(self, word):
+        found = self.__word_exists(self.opcoes, word)
+        try:
+            return self.respostas[found]
+        except:
+            return "Desculpe, não sei a resposta"
 
