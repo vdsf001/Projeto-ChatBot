@@ -1,10 +1,12 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 
 app =  Flask(__name__)
-@app.route('/')
+@app.route('/question')
 def index():
-    param = request.args.get("Pergunta")
-    return f"Route is working -- {param}"
+    param = request.args.get("pergunta")
+    return jsonify({
+        "resposta": "Testando"
+    })
 
 if __name__== "main":
     app.run()
