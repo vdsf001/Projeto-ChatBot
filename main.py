@@ -17,7 +17,7 @@ def index():
         "resposta": bot.find_word(param)
     })
 
-if __name__== "main":
+if __name__== "__main__":
     app.run(debug=True,port='8081')
 
 
