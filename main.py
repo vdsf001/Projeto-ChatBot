@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 from Textos import lista, respostas
 from Bot import Bot
@@ -17,8 +18,8 @@ def index():
         "resposta": bot.find_word(param)
     })
 
-if __name__== "__main__":
-    app.run(debug=True,port='8081')
+if __name__== "main":
+    app.run()
 
 
 
