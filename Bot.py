@@ -14,5 +14,5 @@ class Bot():
         try:
             return self.respostas[found]
         except:
-            return "Desculpe, não sei a resposta"
+            return "Desculpe, poderia digitar novamente? Você pode tentar pesquisar pelos planos de saúde de diversas seguradoras ao redor do país ou até obter informações sobre o COVID-19"
 
