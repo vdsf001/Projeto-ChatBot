@@ -1,7 +1,7 @@
 Nome='Arão'
 
 lista = [["ola", "oi", "eai", "eai?"],
-         ["oi, tudo bem?", "tudo bem?", "oi, como vai?", "como vai?", "como vai?"],
+         ["oi, tudo bem?", "oi, tudo bem", "tudo bem?", "tudo bem", "oi, como vai?", "ola, como vai?", "ola, como vai", "como vai?", "como vai", "como vai voce?", "como vai voce"],
          ["bom dia", "bom dia!", "oi, bom dia", "oi, bom dia!", "ola, bom dia", "ola, bom dia!", "eai, bom dia", "eai, bom dia!"],
          ["bom dia, como vai?", "bom dia, como vai", "bom dia, como voce esta?", "bom dia, como voce esta", "bom dia, tudo bem?", "bom dia, tudo bem"],
          ["boa tarde", "boa tarde!", "oi, boa tarde", "oi, boa tarde!", "ola, boa tarde", "ola, boa tarde!", "eai, boa tarde", "eai, boa tarde!"],
@@ -11,7 +11,7 @@ lista = [["ola", "oi", "eai", "eai?"],
          ["qual o seu nome?", "qual o seu nome", "pode me falar o seu nome?", "pode me falar o seu nome"],
          ["ajuda", "quero ajuda", "pode me ajudar?", "o que posso fazer?", "o que posso fazer", "pode me ajudar", "informaçoes", "informacoes", "quais as suas funcionalidades", "quais as suas funcionalidades?",],
          ["consulta", "consultas", "plano", "planos", "plano de saude", "planos de saude", "preço", "preco", "preços", "precos", "preços seguradoras", "precos seguradoras", "consulta de planos de saude", "consulta de preços", "consulta de precos", "consulta de preços de seguradoras", "consulta de precos de seguradoras", "consultar os preços das seguradoras", "consultar os precos das seguradora", "quero consultar os preços das seguradoras", "quero consultar os precos das seguradoras"],
-         ["covid", "coronavirus", "covid-19", "corona", "corona virus"],
+         ["covid", "coronavirus", "covid19", "covid-19", "corona", "corona virus"],
          ["casos brasil", "dados brasil", "mortes no brasil", "casos e mortes no brasil", "número de casos e mortes no brasil", "numero de casos e mortes no brasil", "dados covid brasil", "dados coronavirus brasil", "dados covid19 brasil"],
          ["casos mundo", "casos mundiais", "dados mundo", "dados mundiais", "casos e mortes no mundo", "dados covid mundo", "dados coronavirus mundiais", "dados covid19 mundiais",  "dados mundiais do covid", "quero saber os dados mundiais do covid", "gostaria de saber o número de casos do covid no mundo", "gostaria de saber o numero de casos do covid no mundo"],
          ["sintomas", "sintomas do covid", "sintomas coronavirus", "sintomas covid19", "pode me informar os sintomas do covid?", "pode me informar os sintomas do covid", "gostaria de saber os sintomas do covid", "quero saber os sintomas do coronavirus", "quero saber os sintomas do covid19", "quero saber os sintomas do covid"],
