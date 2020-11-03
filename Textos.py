@@ -1,4 +1,4 @@
-Nome='Arão'
+Nome='Baymax'
 
 lista = [["ola", "oi", "eai", "eai?"],
          ["oi, tudo bem?", "oi, tudo bem", "tudo bem?", "tudo bem", "oi, como vai?", "ola, como vai?", "ola, como vai", "como vai?", "como vai", "como vai voce?", "como vai voce"],
@@ -35,4 +35,5 @@ respostas = ["Olá! Como posso ajudar?",
              "\nDados Covid Mundo",
              ["Os principais sintomas do Covid-19 incluem:", "-Dificuldade de respirar;","-Febre;","-Tosse.","Se apresentar estes sintomas, por favor, procure ajuda médica para fazer um exame que poderá comprovar se você tem o COVID-19."],
              ["Algumas das principais recomendações para a prevenção do Covid-19 incluem:","-Higienizar bem as mãos com água e sabão ou álcool gel;","-Quando sair de casa, usar uma  máscara que cubra o nariz e a boca;","-Evitar aglomerações;","-Manter uma distância mínima de ao menos 1 metro de outras pessoas."],
-             "Tudo bem. Espero ter sido útil!"]
+             "Tudo bem. Espero ter sido útil!",
+             "Consultar preços\n Sintomas \n Prevenção \n Consultar número de casos"]
